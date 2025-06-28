@@ -1,10 +1,11 @@
 {
-  "name": "B.M.B-XMD",
-  "description": "Javascript WhatsApp bot made by 𝙱.𝙼.𝙱-𝚇𝙼𝙳",
-  "logo": "https://files.catbox.moe/pz83rc.jpg",
-  "keywords": ["B.M.B-XMD"],
+  "name": "NOVA-XMD",
+  "description": "Javascript WhatsApp bot made by novaxmd",
+  "logo": "https://files.catbox.moe/p0xeh3.jpg",
+  "keywords": ["NOVA-XMD"],
   "success_url": "/",
-  "stack": "container",
+
+    "stack": "container",
   "env": {
     "SESSION_ID": {
       "description": "Put the session-id here.",
@@ -15,7 +16,7 @@
     "STICKER_NAME": {
       "description": "type your sticker pack name.",
       "required": false,
-      "value": "B.M.B-XMD"
+      "value": "NOVA-XMD"
     }, 
       
     "PREFIX": {
@@ -28,7 +29,9 @@
       "description": "select your bot work type public-private-inbox-group.",
       "required": false,
       "value": "public"
+      
     },
+    
     
     "ALWAYS_ONLINE": {
       "description": "Make it true if want always online.",
@@ -54,6 +57,7 @@
       "value": "false"
     }, 
 
+
     "AUTO_STATUS_SEEN": {
       "description": "Make it true for automatic status seen.",
       "required": true,
@@ -75,40 +79,51 @@
     "AUTO_STATUS_MSG": {
       "description": "Type custom message on status reply",
       "required": true,
-      "value": "*SEEN YOUR STATUS BY B.M.B-XMD 🖤*"
-    }, 
+      "value": "*SEEN YOUR STATUS BY NOVA-XMD 💗*"
+   
+     }, 
     
     "OWNER_NAME": {
       "description": "Type Bot Owner Name.",
       "required": false,
-      "value": "𝙱.𝙼.𝙱-𝚇𝙼𝙳"
-    }, 
+      "value": "𝙽𝙾𝚅𝙰-𝚇𝙼𝙳"
+}, 
 
     "OWNER_NUMBER": {
       "description": "put the owner number for bot.",
       "required": false,
       "value": "255767862457"
+
     }, 
 
     "BOT_NAME": {
       "description": "Type here the bot name.",
       "required": false,
-      "value": "B.M.B-XMD"
-    }, 
+      "value": "NOVA-XMD"
+
+      }, 
 
     "ANTI_LINK": {
       "description": "Make it true if you want bot auto remove group link.",
       "required": true,
       "value": "true"
+      
+    },
+
+     "ANTI_LINK_KICK": {
+      "description": "Make it true if you want bot auto remove group link.",
+      "required": true,
+      "value": "false"
+      
     },
     
     "ANTI_BAD": {
       "description": "Make it true if you want bot auto delete bad words.",
       "required": false,
       "value": "false"
-    }, 
+    },
 
-    "MENTION_REPLY": {
+   "MENTION_REPLY": {
       "description": "make it true if want mention reply if someone menetion you.",
       "required": false,
       "value": "false"
@@ -117,19 +132,19 @@
     "MENU_IMAGE_URL": {
       "description": "add url for mention reply and menu if want.",
       "required": false,
-      "value": "https://files.catbox.moe/pz83rc.jpg"
+      "value": "https://files.catbox.moe/p0xeh3.jpg"
     },
-     
-    "DESCRIPTION": {
+    
+     "DESCRIPTION": {
       "description": "add caption for menu and other",
       "required": false,
-      "value": "*© ᴘᴏᴡᴇʀᴇᴅ ʙʏ 𝙱.𝙼.𝙱-𝚇𝙼𝙳*"
+      "value": "*© ᴘᴏᴡᴇʀᴇᴅ ʙʏ 𝙽𝙾𝚅𝙰-𝚇𝙼𝙳*"
     },
 
-    "DELETE_LINKS": {
+      "DELETE_LINKS": {
       "description": "remove links from group automatically without removing member",
       "required": false,
-      "value": "true"
+      "value": "false"
     },
     
     "AUTO_RECORDING": {
@@ -154,6 +169,7 @@
       "description": "Make it true if you want custom reactions.",
       "required": false,
       "value": "false"
+      
     }, 
     
     "CUSTOM_REACT_EMOJIS": {
@@ -168,29 +184,31 @@
       "value": "log"
     }, 
 
-    "READ_MESSAGE": {
-      "description": "Make it true if you want bot read your all sms just now.",
+    "ADMIN_EVENTS": {
+      "description": "make it true if want know who promote or demote a member .",
       "required": false,
       "value": "false"
     },
 
-    "ANTICALL": {
-      "description": "Make it true if you want to block calls.",
+    "WELCOME": {
+      "description": "make it true if want goodbye and welcome message in groups.",
       "required": false,
       "value": "true"
     },
 
-    "CHATBOT": {
-      "description": "Make it true if you want chatbot to reply to all messages.",
+    "READ_MESSAGE": {
+      "description": "Make it true if you want bot read your all sms just now.",
       "required": false,
       "value": "false"
     }
-  },
 
-  "buildpacks": [
-    {
-      "url": "https://github.com/heroku/heroku-buildpack-nodejs.git"
-    }
-  ],
+},
+
+     "buildpacks": [
+        {
+            "url": "https://github.com/heroku/heroku-buildpack-nodejs.git"
+        }
+     ],
   "stack": "heroku-24"
-  }
+}
+  

@@ -1,12 +1,12 @@
 {
-  "name": "B.M.B-XMD",
+  "name": "NOVA-XMD",
   "version": "4.0.0",
-  "description": "A WhatsApp Bot Created By bmb200",
+  "description": "A WhatsApp Bot Created By novaxmd",
   "main": "index.js",
   "scripts": {
-    "start": "pm2 start index.js --deep-monitoring --attach --name B.M.B-XMD",
-    "stop": "pm2 stop B.M.B-XMD",
-    "restart": "pm2 restart B.M.B-XMD"
+    "start": "pm2 start index.js --deep-monitoring --attach --name NOVA-XMD",
+    "stop": "pm2 stop NOVA-XMD",
+    "restart": "pm2 restart NOVA-XMD"
   },
   "dependencies": {
     "@whiskeysockets/baileys": "npm:@fizzxydev/baileys-pro@8.5.12",

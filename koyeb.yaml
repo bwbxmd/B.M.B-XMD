@@ -1,6 +1,6 @@
-name: b.m.b-xmd
+name: nova-xmd
 services:
-  - name: b.m.b-xmd-service
+  - name: nova-xmd-service
     type: web
     ports:
       - 5000
